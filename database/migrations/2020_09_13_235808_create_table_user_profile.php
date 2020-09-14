@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTableRealStatePhotos extends Migration
+class CreateTableUserProfile extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,13 @@ class CreateTableRealStatePhotos extends Migration
      */
     public function up()
     {
-        Schema::create('real_state_photos', function (Blueprint $table) {
+        Schema::create('user_profile', function (Blueprint $table) {
             $table->bigIncrements('id');
 
-            $table->string('photo');
-            $table->boolean('is_thumb');
+            $table->text('about')->nullable(true);
+            $table->text('social_networks')->nullable(true);
+            $table->string('phone');
+            $table->string('mobile_phone');
 
             $table->timestamps();
         });
@@ -30,6 +32,6 @@ class CreateTableRealStatePhotos extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('real_state_photos');
+        Schema::dropIfExists('user_profile');
     }
 }

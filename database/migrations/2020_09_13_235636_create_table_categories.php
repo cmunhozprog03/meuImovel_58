@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTableRealState extends Migration
+class CreateTableCategories extends Migration
 {
     /**
      * Run the migrations.
@@ -13,18 +13,11 @@ class CreateTableRealState extends Migration
      */
     public function up()
     {
-        Schema::create('real_state', function (Blueprint $table) {
+        Schema::create('categories', function (Blueprint $table) {
             $table->bigIncrements('id');
 
-            $table->string('title');
+            $table->string('name');
             $table->string('description');
-            $table->text('content');
-            $table->float('price', 10, 2);
-            $table->integer('bathrooms');
-            $table->integer('bedrooms');
-            $table->integer('property_area');
-            $table->integer('property_area');
-            $table->integer('total_property_area');
             $table->string('slug');
 
             $table->timestamps();
@@ -38,6 +31,6 @@ class CreateTableRealState extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('real_state');
+        Schema::dropIfExists('categories');
     }
 }
