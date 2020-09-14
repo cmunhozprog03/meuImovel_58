@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba563eb5-c160-4ed9-9f38-5217f13538cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_14_141501_create_table_real_state_categories.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_13_234537_create_table_real_state.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_13_234537_create_table_real_state.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_13_235233_create_table_real_state_photos.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_13_235233_create_table_real_state_photos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_13_235808_create_table_user_profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_13_235808_create_table_user_profile.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +165,7 @@
       <updated>1600040797577</updated>
       <workItem from="1600040798803" duration="488000" />
       <workItem from="1600041302862" duration="3657000" />
-      <workItem from="1600090558921" duration="1585000" />
+      <workItem from="1600090558921" duration="3378000" />
     </task>
     <task id="LOCAL-00001" summary="Aula - 036">
       <created>1600047338159</created>
@@ -175,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600047338159</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Aula - 037">
+      <created>1600092686325</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600092686325</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +202,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Aula - 036" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula - 036" />
+    <MESSAGE value="Aula - 037" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula - 037" />
   </component>
   <component name="WindowStateProjectService">
     <state x="492" y="247" key="#Composer" timestamp="1600041029254">
@@ -219,9 +226,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1321" height="181" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1600041291236" />
-    <state x="274" y="100" key="Vcs.Push.Dialog.v2" timestamp="1600047340116">
+    <state x="274" y="100" key="Vcs.Push.Dialog.v2" timestamp="1600092689904">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="274" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1600047340116" />
+    <state x="274" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1600092689904" />
   </component>
 </project>

@@ -24,7 +24,6 @@ class CreateTableRealState extends Migration
             $table->integer('bathrooms');
             $table->integer('bedrooms');
             $table->integer('property_area');
-            $table->integer('property_area');
             $table->integer('total_property_area');
             $table->string('slug');
 
